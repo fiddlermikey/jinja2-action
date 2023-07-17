@@ -84,7 +84,7 @@ jobs:
         with:
           template: test/many-variables/template
           output_file: test/data-files/json-result
-          data_file: test/data-files/data.yml
+          data_file: test/data-files/data.json
       - name: '[test] json data file'
         run: diff test/data-files/json-result test/many-variables/expected
 
